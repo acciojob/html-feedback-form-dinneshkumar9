@@ -8,6 +8,36 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h1>Feedback Form</h1>
+	<form>
+		<div>
+		<label for="name">Name 
+			<input type="text" name="name" id="name" pattern="[A-Za-z]{3,50}" required>
+		</label>
+	</div>
+	<br>
+		<div>
+		<label for="portfolio">Portfolio  
+			<input type="url" name="portfolio" id="portfolio"  required>
+		</label>
+	</div>
+	<br>
+	<div>
+		<label for="favColor">FavColor 
+			<select name="favColor" id="favColor">
+				<option value="Red">Red</option>
+				<option value="Green">Green</option>
+				<option value="Blue">Blue</option>
+			</select>
+		</label>
+	</div>
+	<br>
+	<div>
+		<label for="likeness">Likeness 
+			<input type="range" name="likeness" id="likeness" min="1" max="100">
+		</label>
+	</div>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
